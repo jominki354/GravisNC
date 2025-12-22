@@ -1,0 +1,10 @@
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\GCode.App.WPF.csproj.AssemblyReference.cache
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\Views\ConfirmDialog.baml
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\Views\SettingsWindow.baml
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\Views\ConfirmDialog.g.cs
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\Views\SettingsWindow.g.cs
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\App.g.cs
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\GravisNC_MarkupCompile.cache
+D:\GravisNC\src\03.App\GCode.App.WPF\obj\Debug\net8.0-windows\GravisNC_MarkupCompile.lref

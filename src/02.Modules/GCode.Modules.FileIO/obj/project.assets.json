@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "GCode.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/GCode.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GCode.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GCode.Core/1.0.0": {
+      "type": "project",
+      "path": "../../01.Core/GCode.Core/GCode.Core.csproj",
+      "msbuildProject": "../../01.Core/GCode.Core/GCode.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "GCode.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jomin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GravisNC\\src\\02.Modules\\GCode.Modules.FileIO\\GCode.Modules.FileIO.csproj",
+      "projectName": "GCode.Modules.FileIO",
+      "projectPath": "D:\\GravisNC\\src\\02.Modules\\GCode.Modules.FileIO\\GCode.Modules.FileIO.csproj",
+      "packagesPath": "C:\\Users\\jomin\\.nuget\\packages\\",
+      "outputPath": "D:\\GravisNC\\src\\02.Modules\\GCode.Modules.FileIO\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jomin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "D:\\GravisNC\\src\\01.Core\\GCode.Core\\GCode.Core.csproj": {
+              "projectPath": "D:\\GravisNC\\src\\01.Core\\GCode.Core\\GCode.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.22, 8.0.22]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

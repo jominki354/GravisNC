@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<SyntaxDefinition name="GCode" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+	<!-- Colors -->
+	<Color name="Comment" foreground="#6A9955" exampleText="(Comment)" />
+	<Color name="String" foreground="#CE9178" exampleText="&quot;Hello&quot;" />
+	<Color name="GCode" foreground="#569CD6" fontWeight="bold" exampleText="G00" />
+	<Color name="MCode" foreground="#C586C0" fontWeight="bold" exampleText="M03" />
+	<Color name="Coordinate" foreground="#B5CEA8" exampleText="X100.5" />
+	<Color name="Number" foreground="#B5CEA8" exampleText="100.5" />
+    <Color name="Parameter" foreground="#9CDCFE" exampleText="#100" />
+
+	<!-- Rule Set -->
+	<RuleSet>
+		<Span color="Comment" begin="\(" end="\)" />
+        <Span color="Comment" begin=";" />
+
+		<!-- G-Codes (G00, G1, G90 etc) -->
+		<Rule color="GCode">
+			\bG\d+(\.\d+)?\b
+		</Rule>
+
+		<!-- M-Codes (M03, M05, M30 etc) -->
+		<Rule color="MCode">
+			\bM\d+(\.\d+)?\b
+		</Rule>
+
+        <!-- Coordinates (X, Y, Z, I, J, K, F, S, T) followed by numbers -->
+        <Rule color="Coordinate">
+            \b[XYZIJKFSTRxyzijkfstr][-+]?[0-9]*\.?[0-9]+
+        </Rule>
+        
+        <!-- Macro Parameters (#100) -->
+        <Rule color="Parameter">
+            \#[0-9]+
+        </Rule>
+
+		<Rule color="Number">
+			\b\d+(\.\d+)?\b
+		</Rule>
+	</RuleSet>
+</SyntaxDefinition>

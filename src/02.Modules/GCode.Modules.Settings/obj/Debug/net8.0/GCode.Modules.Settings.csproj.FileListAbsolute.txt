@@ -1,0 +1,15 @@
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\bin\Debug\net8.0\GCode.Modules.Settings.deps.json
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\bin\Debug\net8.0\GCode.Modules.Settings.dll
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\bin\Debug\net8.0\GCode.Modules.Settings.pdb
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\bin\Debug\net8.0\GCode.Core.dll
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\bin\Debug\net8.0\GCode.Core.pdb
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.csproj.AssemblyReference.cache
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.GeneratedMSBuildEditorConfig.editorconfig
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.AssemblyInfoInputs.cache
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.AssemblyInfo.cs
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.csproj.CoreCompileInputs.cache
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Mo.98E9BBD9.Up2Date
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.dll
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\refint\GCode.Modules.Settings.dll
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.pdb
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\ref\GCode.Modules.Settings.dll

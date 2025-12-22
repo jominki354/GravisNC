@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>GCode.App.WPF</RootNamespace>
+    <AssemblyName>GravisNC</AssemblyName>
+    <Product>GravisNC</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 핵심 에디터 엔진 -->
+    <PackageReference Include="AvalonEdit" Version="6.3.0.90" />
+    <!-- MVVM 패턴 라이브러리 -->
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Core\GCode.Core\GCode.Core.csproj" />
+    <ProjectReference Include="..\..\02.Modules\GCode.Modules.FileIO\GCode.Modules.FileIO.csproj" />
+    <ProjectReference Include="..\..\02.Modules\GCode.Modules.Settings\GCode.Modules.Settings.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\**\*.xshd" />
+    <Resource Include="Resources\icon.png" />
+  </ItemGroup>
+
+</Project>

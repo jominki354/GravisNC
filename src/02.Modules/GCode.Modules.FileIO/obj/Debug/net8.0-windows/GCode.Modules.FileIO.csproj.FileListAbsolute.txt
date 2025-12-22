@@ -1,0 +1,15 @@
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\bin\Debug\net8.0-windows\GCode.Modules.FileIO.deps.json
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\bin\Debug\net8.0-windows\GCode.Modules.FileIO.dll
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\bin\Debug\net8.0-windows\GCode.Modules.FileIO.pdb
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\bin\Debug\net8.0-windows\GCode.Core.dll
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\bin\Debug\net8.0-windows\GCode.Core.pdb
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\GCode.Modules.FileIO.csproj.AssemblyReference.cache
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\GCode.Modules.FileIO.GeneratedMSBuildEditorConfig.editorconfig
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\GCode.Modules.FileIO.AssemblyInfoInputs.cache
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\GCode.Modules.FileIO.AssemblyInfo.cs
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\GCode.Modules.FileIO.csproj.CoreCompileInputs.cache
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\GCode.Mo.07D8B44B.Up2Date
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\GCode.Modules.FileIO.dll
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\refint\GCode.Modules.FileIO.dll
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\GCode.Modules.FileIO.pdb
+D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\obj\Debug\net8.0-windows\ref\GCode.Modules.FileIO.dll

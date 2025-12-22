@@ -1,0 +1,34 @@
+  복원할 프로젝트를 확인하는 중...
+  복원할 모든 프로젝트가 최신 상태입니다.
+  GCode.Core -> D:\GravisNC\src\01.Core\GCode.Core\bin\Debug\net8.0\GCode.Core.dll
+  GCode.Modules.FileIO -> D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\bin\Debug\net8.0-windows\GCode.Modules.FileIO.dll
+  GCode.Modules.Settings -> D:\GravisNC\src\02.Modules\GCode.Modules.Settings\bin\Debug\net8.0\GCode.Modules.Settings.dll
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(18,23): warning CS8618: null을 허용하지 않는 속성 'StageName'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(8,23): warning CS8618: null을 허용하지 않는 속성 'Name'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(9,23): warning CS8618: null을 허용하지 않는 속성 'Code'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(10,23): warning CS8618: null을 허용하지 않는 속성 'Icon'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(11,23): warning CS8618: null을 허용하지 않는 속성 'Description'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(11,23): warning CS8618: null을 허용하지 않는 속성 'Header'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(12,23): warning CS8618: null을 허용하지 않는 속성 'Content'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(15,23): warning CS8618: null을 허용하지 않는 속성 'ToolNumber'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(146,83): error CS1061: 'MainWindow'에는 'StructureBtn_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'StructureBtn_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(340,108): error CS1061: 'MainWindow'에는 'RefreshStructure_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'RefreshStructure_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(346,108): error CS1061: 'MainWindow'에는 'SortByTool_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'SortByTool_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+
+빌드하지 못했습니다.
+
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(18,23): warning CS8618: null을 허용하지 않는 속성 'StageName'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(8,23): warning CS8618: null을 허용하지 않는 속성 'Name'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(9,23): warning CS8618: null을 허용하지 않는 속성 'Code'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(10,23): warning CS8618: null을 허용하지 않는 속성 'Icon'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Models\TemplateModels.cs(11,23): warning CS8618: null을 허용하지 않는 속성 'Description'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(11,23): warning CS8618: null을 허용하지 않는 속성 'Header'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(12,23): warning CS8618: null을 허용하지 않는 속성 'Content'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(15,23): warning CS8618: null을 허용하지 않는 속성 'ToolNumber'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(146,83): error CS1061: 'MainWindow'에는 'StructureBtn_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'StructureBtn_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(340,108): error CS1061: 'MainWindow'에는 'RefreshStructure_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'RefreshStructure_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(346,108): error CS1061: 'MainWindow'에는 'SortByTool_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'SortByTool_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_olajzgqm_wpftmp.csproj]
+    경고 8개
+    오류 3개
+
+경과 시간: 00:00:02.48

@@ -1,0 +1,11 @@
+d:\GravisNC\src\01.Core\GCode.Core\bin\Debug\net10.0\GCode.Core.deps.json
+d:\GravisNC\src\01.Core\GCode.Core\bin\Debug\net10.0\GCode.Core.dll
+d:\GravisNC\src\01.Core\GCode.Core\bin\Debug\net10.0\GCode.Core.pdb
+d:\GravisNC\src\01.Core\GCode.Core\obj\Debug\net10.0\GCode.Core.GeneratedMSBuildEditorConfig.editorconfig
+d:\GravisNC\src\01.Core\GCode.Core\obj\Debug\net10.0\GCode.Core.AssemblyInfoInputs.cache
+d:\GravisNC\src\01.Core\GCode.Core\obj\Debug\net10.0\GCode.Core.AssemblyInfo.cs
+d:\GravisNC\src\01.Core\GCode.Core\obj\Debug\net10.0\GCode.Core.csproj.CoreCompileInputs.cache
+d:\GravisNC\src\01.Core\GCode.Core\obj\Debug\net10.0\GCode.Core.dll
+d:\GravisNC\src\01.Core\GCode.Core\obj\Debug\net10.0\refint\GCode.Core.dll
+d:\GravisNC\src\01.Core\GCode.Core\obj\Debug\net10.0\GCode.Core.pdb
+d:\GravisNC\src\01.Core\GCode.Core\obj\Debug\net10.0\ref\GCode.Core.dll
