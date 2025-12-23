@@ -59,6 +59,11 @@
     - [x] **Scrollbar:** MinHeight enforcement for long files.
 - [ ] **Advanced Features**
     - [ ] 현재 라인 강조.
+- [x] **G-Code Structure & Compilation (Session 7)**
+    - [x] **Structure Panel:** G-Code Block Visualization (Side Panel).
+    - [x] **Parser:** T# and M6 based block splitting.
+    - [x] **Navigation:** Click-to-scroll synchronization.
+    - [x] **Stability:** Fixed MSB4276/CS0103 build errors & Class Structure.
 
 
 ## Phase 2: Visualization (시각화 연동) - DEFERRED
