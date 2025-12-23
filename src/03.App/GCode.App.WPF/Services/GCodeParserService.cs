@@ -8,11 +8,11 @@ namespace GCode.App.WPF.Services
     public class GCodeBlock
     {
         public string Id { get; set; } = Guid.NewGuid().ToString();
-        public string Header { get; set; }     // e.g., "T01 - 3.5 DRILL", "Header", "Footer"
-        public string Content { get; set; }    // Raw G-Code Lines
+        public string Header { get; set; } = string.Empty;     // e.g., "T01 - 3.5 DRILL", "Header", "Footer"
+        public string Content { get; set; } = string.Empty;    // Raw G-Code Lines
         public int StartLine { get; set; }     // For Sync
         public int EndLine { get; set; }
-        public string ToolNumber { get; set; } // "T14"
+        public string ToolNumber { get; set; } = string.Empty; // "T14"
         public List<string> Operations { get; set; } = new List<string>(); // "( OPERATION ... )"
         public bool IsOperation { get; set; } = false; // Is this a T# block?
     }
