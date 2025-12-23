@@ -21,5 +21,6 @@ src/02.Modules
 src/03.App
 └── GCode.App.WPF           # DI Container, MainWindow
     ├── Commands            # AppCommands, EditorCommandHandler
-    ├── Views               # SettingsWindow
+    ├── Services            # GCodeParserService, ModernDialogService
+    ├── Views               # SettingsWindow, ConfirmDialog
     └── Resources           # GCode.xshd
