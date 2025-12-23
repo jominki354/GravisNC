@@ -1,0 +1,61 @@
+  복원할 프로젝트를 확인하는 중...
+  D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF.csproj을(를) 1.05초 동안 복원했습니다.
+  복원할 4 프로젝트의 3이(가) 최신 상태입니다.
+  GCode.Core -> D:\GravisNC\src\01.Core\GCode.Core\bin\Debug\net8.0\GCode.Core.dll
+  GCode.Modules.FileIO -> D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\bin\Debug\net8.0-windows\GCode.Modules.FileIO.dll
+  GCode.Modules.Settings -> D:\GravisNC\src\02.Modules\GCode.Modules.Settings\bin\Debug\net8.0\GCode.Modules.Settings.dll
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1229,29): error CS0103: 'StructurePanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1230,17): error CS0103: 'StructurePanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(11,23): warning CS8618: null을 허용하지 않는 속성 'Header'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(12,23): warning CS8618: null을 허용하지 않는 속성 'Content'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(15,23): warning CS8618: null을 허용하지 않는 속성 'ToolNumber'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1240,26): error CS0103: 'GetCurrentEditor' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1243,17): error CS0103: 'StructureList' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1248,26): error CS0103: '_parser' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1249,13): error CS0103: 'StructureList' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1254,26): error CS0103: 'GetCurrentEditor' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1257,26): error CS0103: 'StructureList' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1268,34): error CS0103: '_parser' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1276,17): error CS0103: 'StructureList' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1278,30): error CS0103: 'GetCurrentEditor' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1301,13): error CS0103: 'ExplorerPanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1302,13): error CS0103: 'OptimizerPanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1303,13): error CS0103: 'StructurePanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1308,32): error CS0103: 'EditorTabs' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1315,29): error CS0103: 'OptimizerPanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1316,17): error CS0103: 'OptimizerPanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(146,83): error CS1061: 'MainWindow'에는 'StructureBtn_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'StructureBtn_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(340,108): error CS1061: 'MainWindow'에는 'RefreshStructure_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'RefreshStructure_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(346,108): error CS1061: 'MainWindow'에는 'SortByTool_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'SortByTool_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(357,114): error CS1061: 'MainWindow'에는 'StructureList_SelectionChanged'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'StructureList_SelectionChanged'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+
+빌드하지 못했습니다.
+
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(11,23): warning CS8618: null을 허용하지 않는 속성 'Header'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(12,23): warning CS8618: null을 허용하지 않는 속성 'Content'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(15,23): warning CS8618: null을 허용하지 않는 속성 'ToolNumber'은(는) 생성자를 종료할 때 null이 아닌 값을 포함해야 합니다. 'required' 한정자를 추가하거나 속성을(를) nullable로 선언하는 것이 좋습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1229,29): error CS0103: 'StructurePanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1230,17): error CS0103: 'StructurePanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1240,26): error CS0103: 'GetCurrentEditor' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1243,17): error CS0103: 'StructureList' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1248,26): error CS0103: '_parser' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1249,13): error CS0103: 'StructureList' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1254,26): error CS0103: 'GetCurrentEditor' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1257,26): error CS0103: 'StructureList' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1268,34): error CS0103: '_parser' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1276,17): error CS0103: 'StructureList' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1278,30): error CS0103: 'GetCurrentEditor' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1301,13): error CS0103: 'ExplorerPanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1302,13): error CS0103: 'OptimizerPanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1303,13): error CS0103: 'StructurePanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1308,32): error CS0103: 'EditorTabs' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1315,29): error CS0103: 'OptimizerPanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml.cs(1316,17): error CS0103: 'OptimizerPanel' 이름이 현재 컨텍스트에 없습니다. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(146,83): error CS1061: 'MainWindow'에는 'StructureBtn_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'StructureBtn_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(340,108): error CS1061: 'MainWindow'에는 'RefreshStructure_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'RefreshStructure_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(346,108): error CS1061: 'MainWindow'에는 'SortByTool_Click'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'SortByTool_Click'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\MainWindow.xaml(357,114): error CS1061: 'MainWindow'에는 'StructureList_SelectionChanged'에 대한 정의가 포함되어 있지 않고, 'MainWindow' 형식의 첫 번째 인수를 허용하는 액세스 가능한 확장 메서드 'StructureList_SelectionChanged'이(가) 없습니다. using 지시문 또는 어셈블리 참조가 있는지 확인하세요. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_ngst40pw_wpftmp.csproj]
+    경고 3개
+    오류 21개
+
+경과 시간: 00:00:03.19

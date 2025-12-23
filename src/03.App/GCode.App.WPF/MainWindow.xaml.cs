@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using ICSharpCode.AvalonEdit.Editing;
 using System.Windows.Threading;
 using System.Collections.Generic;
+using GCode.App.WPF.Services; // Ensure GCodeBlock is found
 
 namespace GCode.App.WPF
 {
@@ -23,6 +24,7 @@ namespace GCode.App.WPF
         private readonly IFileService _fileService;
         private readonly IDialogService _dialogService;
         private readonly ISettingsService _settingsService;
+        private readonly Services.GCodeParserService _parser; // NEW
         
         // Tab Drag-Drop
         private TabItem? _draggedTab = null;
@@ -39,6 +41,7 @@ namespace GCode.App.WPF
             _fileService = fileService;
             _dialogService = dialogService;
             _settingsService = settingsService;
+            _parser = new GCodeParserService(); // NEW
             
             // 앱 시작 시 빈 탭 하나 생성 (삭제됨 - RestoreSession에서 처리)
             _commandHandler = new EditorCommandHandler(this, EditorTabs, FileTree, fileService, dialogService, settingsService);
@@ -1188,7 +1191,7 @@ namespace GCode.App.WPF
             }
             return null;
         }
-    }
+
 
     // VisualHost: DrawingVisual을 Canvas에 추가하기 위한 헬퍼 클래스
     public class VisualHost : FrameworkElement
@@ -1218,6 +1221,7 @@ namespace GCode.App.WPF
                 throw new ArgumentOutOfRangeException(nameof(index));
             return _visual;
         }
+    }
         // ===================================
         // Structure Panel Logic
         // ===================================
@@ -1251,14 +1255,13 @@ namespace GCode.App.WPF
             var editor = GetCurrentEditor();
             if (editor == null) return;
 
-            var blocks = StructureList.ItemsSource as List<Services.GCodeBlock>;
+            var blocks = StructureList.ItemsSource as List<GCodeBlock>;
             if (blocks == null || !blocks.Any()) return;
 
             // Simple Sort: Group by Tool Number
             var sortedBlocks = blocks.OrderBy(b => b.ToolNumber).ToList();
             
             // Reconstruct Text
-            // Note: This needs a robust prompt or undo/redo support as it modifies the file extensively!
             if (MessageBox.Show("공구 번호 순서로 코드를 재배치하시겠습니까?\n(경고: 이 작업은 되돌릴 수 없을 수 있습니다.)", 
                                 "구조 변경", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
             {
@@ -1270,7 +1273,7 @@ namespace GCode.App.WPF
 
         private void StructureList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (StructureList.SelectedItem is Services.GCodeBlock block)
+            if (StructureList.SelectedItem is GCodeBlock block)
             {
                 var editor = GetCurrentEditor();
                 if (editor == null) return;
@@ -1278,14 +1281,19 @@ namespace GCode.App.WPF
                 // Sync Cursor
                 try
                 {
-                    // Find line offset
-                    var lines = editor.Text.Split(new[] { "\r\n", "\r", "\n" }, StringSplitOptions.None);
-                    if (block.StartLine < lines.Length)
+                    // Safe logic using AvalonEdit Document
+                    if (block.StartLine < editor.Document.LineCount)
                     {
-                        // Calculate offset for safe scrolling
-                        var lineObject = editor.Document.Lines[block.StartLine];
-                        editor.ScrollToLine(block.StartLine + 1);
+                        // AvalonEdit lines are 1-based
+                        var lineNum = block.StartLine + 1;
+                        var lineObject = editor.Document.GetLineByNumber(lineNum); 
+                        editor.ScrollToLine(lineNum);
                         editor.Select(lineObject.Offset, lineObject.Length);
+                        
+                        // Set Caret
+                        editor.TextArea.Caret.Line = lineNum;
+                        editor.TextArea.Caret.Column = 0;
+                        editor.Focus();
                     }
                 }
                 catch { /* Ignore Range Errors */ }
@@ -1308,22 +1316,7 @@ namespace GCode.App.WPF
             }
         }
 
-        // --- Original OptimizerBtn_Click Modified ---
-        private void OptimizerBtn_Click(object sender, RoutedEventArgs e)
-        {
-            ToggleSidePanel(OptimizerPanel);
-            if (OptimizerPanel.Visibility == Visibility.Visible)
-            {
-                RunAnalysis();
-            }
-        }
 
-        // --- Original Explorer Button Modified --- (Need to find where Explorer is toggled)
-        // Usually OpenFolder command toggles it? 
-        // For now, assume Explorer is default.
 
-        // ===================================
-        // End Structure Logic
-        // ===================================
     }
 }

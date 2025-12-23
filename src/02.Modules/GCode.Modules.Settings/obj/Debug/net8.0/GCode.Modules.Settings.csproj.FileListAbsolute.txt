@@ -8,6 +8,7 @@ D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules
 D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.AssemblyInfoInputs.cache
 D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.AssemblyInfo.cs
 D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.csproj.CoreCompileInputs.cache
+D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.sourcelink.json
 D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Mo.98E9BBD9.Up2Date
 D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\GCode.Modules.Settings.dll
 D:\GravisNC\src\02.Modules\GCode.Modules.Settings\obj\Debug\net8.0\refint\GCode.Modules.Settings.dll

@@ -268,8 +268,10 @@
                             </TreeView>
                         </Grid>
                     </Border>
-                    
-                    <!-- Optimizer Panel -->
+
+
+
+                    <!-- Optimizer Panel (Placeholder) -->
                     <Border x:Name="OptimizerPanel" Grid.Column="1" Background="#252526" BorderBrush="#1E1E1E" BorderThickness="0,0,1,0" Visibility="Collapsed">
                         <Grid>
                             <Grid.RowDefinitions>
@@ -372,7 +374,7 @@
                                                 <StackPanel Grid.Column="1">
                                                     <TextBlock Text="{Binding Header}" FontWeight="Bold" Foreground="#E0E0E0" FontSize="12"/>
                                                     <TextBlock Text="{Binding Operations[0]}" Foreground="#4EC9B0" FontSize="11" Margin="0,2,0,0" 
-                                                               Visibility="{Binding Operations.Count, Converter={StaticResource CountToVisibilityConverter}}"/>
+                                                               Visibility="{Binding Operations.Count}"/>
                                                     <TextBlock Text="{Binding Content}" Foreground="#888888" FontSize="10" 
                                                                MaxHeight="32" TextTrimming="CharacterEllipsis" Margin="0,4,0,0" Opacity="0.7"/>
                                                 </StackPanel>

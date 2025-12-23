@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GCode.Modules.FileIO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8563fc76707da7d0624d06dd8a16e9151c558dc4")]
 [assembly: System.Reflection.AssemblyProductAttribute("GCode.Modules.FileIO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GCode.Modules.FileIO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

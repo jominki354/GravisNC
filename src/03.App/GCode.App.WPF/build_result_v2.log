@@ -1,0 +1,25 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GCode.Core -> D:\GravisNC\src\01.Core\GCode.Core\bin\Debug\net8.0\GCode.Core.dll
+  GCode.Modules.FileIO -> D:\GravisNC\src\02.Modules\GCode.Modules.FileIO\bin\Debug\net8.0-windows\GCode.Modules.FileIO.dll
+  GCode.Modules.Settings -> D:\GravisNC\src\02.Modules\GCode.Modules.Settings\bin\Debug\net8.0\GCode.Modules.Settings.dll
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(11,23): warning CS8618: Non-nullable property 'Header' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_trkghkbs_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(12,23): warning CS8618: Non-nullable property 'Content' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_trkghkbs_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(15,23): warning CS8618: Non-nullable property 'ToolNumber' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_trkghkbs_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(11,23): warning CS8618: Non-nullable property 'Header' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(12,23): warning CS8618: Non-nullable property 'Content' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(15,23): warning CS8618: Non-nullable property 'ToolNumber' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF.csproj]
+  GCode.App.WPF -> D:\GravisNC\src\03.App\GCode.App.WPF\bin\Debug\net8.0-windows\GravisNC.dll
+
+Build succeeded.
+
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(11,23): warning CS8618: Non-nullable property 'Header' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_trkghkbs_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(12,23): warning CS8618: Non-nullable property 'Content' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_trkghkbs_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(15,23): warning CS8618: Non-nullable property 'ToolNumber' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF_trkghkbs_wpftmp.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(11,23): warning CS8618: Non-nullable property 'Header' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(12,23): warning CS8618: Non-nullable property 'Content' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF.csproj]
+D:\GravisNC\src\03.App\GCode.App.WPF\Services\GCodeParserService.cs(15,23): warning CS8618: Non-nullable property 'ToolNumber' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [D:\GravisNC\src\03.App\GCode.App.WPF\GCode.App.WPF.csproj]
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.31

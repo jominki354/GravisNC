@@ -104,5 +104,20 @@
 *   **Log Cleanup:** Deleted build error logs and warnings (`build_*.txt`, `crash.log`).
 *   **Documentation:** Verified `TODO.md` and `LOG.md` status.
 
-## [2025-12-22] :릴리즈
-* :릴리즈
+## [2025-12-23] Session 7 - Build Fixes & G-Code Structure Feature
+
+### Critical Fixes
+*   **Compilation Resolved:** Fixed persistent `CS0103` and `CS0102` errors in `MainWindow.xaml` and code-behind.
+*   **SDK Configuration:** Resolved phantom `MSB4276` errors by correcting XAML/C# logic mismatches.
+*   **Code Structure:** Corrected a critical brace mismatch in `MainWindow.xaml.cs` that was isolating methods from the class scope.
+
+### New Features
+*   **G-Code Structure Panel:**
+    *   Added **Structure Panel** (Right Sidebar) for visualizing G-Code blocks.
+    *   Implemented `GCodeParserService` to split code by Tool Change (T#) and M6.
+    *   **Interactive List:** Clicking a block synchronizes the editor cursor and scroll position.
+    *   **UI Integration:** Toggle button added to Activity Bar (Left).
+
+### Refinement
+*   **Refactored `MainWindow.xaml`:** Cleaned up duplicate panel definitions and consolidated UI logic.
+*   **Build Status:** Restored to **Build Succeeded** state (Exit Code 0).
